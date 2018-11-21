@@ -22,7 +22,7 @@ namespace JustRipeFarmUnitTest
 
             LabourerHandler labrHand = new LabourerHandler();
             int resp2 = labrHand.addNewLabourer(dbC.getConn(), labrA);
-            Assert.AreSame(1, resp2);
+            Assert.AreEqual(1, resp2);
         }
     }
 }
